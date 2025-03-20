@@ -366,9 +366,6 @@
       max-width: 96rem !important;
     }
   }
-  .mx-80 {
-    margin-inline: calc(var(--spacing) * 80);
-  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
@@ -509,9 +506,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1372,12 +1366,6 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
-  .pl-5 {
-    padding-left: calc(var(--spacing) * 5);
-  }
-  .pl-72 {
-    padding-left: calc(var(--spacing) * 72);
-  }
   .text-center {
     text-align: center;
   }
@@ -2045,21 +2033,6 @@
   .md\:pl-20 {
     @media (width >= 48rem) {
       padding-left: calc(var(--spacing) * 20);
-    }
-  }
-  .md\:pl-40 {
-    @media (width >= 48rem) {
-      padding-left: calc(var(--spacing) * 40);
-    }
-  }
-  .md\:pl-44 {
-    @media (width >= 48rem) {
-      padding-left: calc(var(--spacing) * 44);
-    }
-  }
-  .md\:pl-80 {
-    @media (width >= 48rem) {
-      padding-left: calc(var(--spacing) * 80);
     }
   }
   .md\:pl-90 {
